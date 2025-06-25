@@ -12,8 +12,10 @@ public class Boolean {
         int votingAge = 18;
         System.out.println(x > y);
         System.out.println(x == y);
-        System.out.println(x < y);
-        System.out.println(myAge >= votingAge);
-        System.out.println(myAge <= votingAge);
+        if(myAge > votingAge){
+            System.out.println("I'm able to vote");
+        } else {
+            System.out.println("Not able to vote");
+        }
     }
 }
