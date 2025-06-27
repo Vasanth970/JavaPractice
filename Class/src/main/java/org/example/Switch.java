@@ -17,6 +17,12 @@ public class Switch {
                 break;
             default:
                 System.out.println("No Holiday");
+                  /*Instead of writing many if..else statements, you can use the switch statement.
+                The switch statement selects one of many code blocks to be executed:
+                 The switch expression is evaluated once.
+                The value of the expression is compared with the values of each case.
+                If there is a match, the associated block of code is executed.
+                    The break and default keywords are optional*/
 
         }
     }

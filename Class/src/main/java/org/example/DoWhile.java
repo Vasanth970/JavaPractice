@@ -8,6 +8,7 @@ public class DoWhile {
                    i ++;
                } while (i <  5);
 
-               //the variable i starts at 10, so the condition i < 5 is false immediately - yet the do/while loop still runs once:
+               //the variable i starts at 10, so the condition i < 5 is false immediately -
+        //yet the do/while loop still runs once:
     }
 }
