@@ -6,6 +6,7 @@ import java.util.*;
 
 public class Collections {
     public static void main(String[] args){
+        System.out.println("=======ArrayList========");
 
         List<String> list = new ArrayList<>();
         list.add("java");
@@ -14,6 +15,8 @@ public class Collections {
         for (String item : list){
             System.out.println(item);
         }
+        System.out.println("=======HastSet==========");
+
         Set<String> set = new HashSet<>();
         set.add("java");
         set.add("selenium");
@@ -21,12 +24,15 @@ public class Collections {
         for (String item : set){
             System.out.println(item);
         }
+        System.out.println("=========Queue========");
+
         Queue<Integer> queue =  new LinkedList<>();
         queue.add(10);
         queue.add(20);
         queue.add(30);
         System.out.println("Removed: " + queue.poll());
         System.out.println("Queue:" + queue);
+        System.out.println("=========HashMap========");
 
         Map<Integer, String> map = new HashMap<>();
         map.put(100, "Vasanth");
